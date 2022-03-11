@@ -1,7 +1,7 @@
 html, body{
 	font-size:16px;
 	color: #dfdfdf;
-	background-color: #063647; 
+	background-color: #21295C; 
 }
 
 a {
@@ -18,19 +18,19 @@ section{
 }
 
 .section-1 {
-	background: #063647;
+	background: #1B3B6F;
 }
 
 .section-2 {
-	background-color: #052D3D;
+	background-color: #065A82;
 }
 
 .section-3 {
-	background-color: #0E282E;
+	background-color: #1C7293;
 }
 
 .section-4 {
-	background-color: #063647;
+	background-color: #9EB3C2;
 	padding: 0.2rem;
 }
 
@@ -88,6 +88,9 @@ a.nav-item:hover {
 .void-background {
 	background-color: transparent; 
 }
+#name-tag {
+	color: #21295C;
+}
 
 @media screen and (max-width: 768px) {
 	.nav-menu {
@@ -105,5 +108,6 @@ a.nav-item:hover {
 	.nav-toggle span:hover {
 		background-color: #fff;
 	}
+	
 
 }
